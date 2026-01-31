@@ -1,28 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>Praveen Mothkuri</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       margin: 0;
       height: 100vh;
+      background: #0f172a;
+      color: white;
       display: flex;
-      justify-content: center;
       align-items: center;
-      background: #f5f5f5;
-      font-family: Arial, sans-serif;
+      justify-content: center;
+      font-family: system-ui, sans-serif;
+    }
+    .card {
+      text-align: center;
     }
     img {
-      max-width: 90%;
-      max-height: 90%;
-      border-radius: 12px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      width: 260px;
+      border-radius: 50%;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.5);
+    }
+    h1 {
+      margin: 20px 0 6px;
+    }
+    p {
+      color: #94a3b8;
+      margin: 0;
     }
   </style>
 </head>
 <body>
-  <img src="profile.jpeg" alt="Praveen Mothkuri - Professional Photo">
+  <div class="card">
+    <img src="profile.jpeg" alt="Praveen Mothkuri">
+    <h1>Praveen Mothkuri</h1>
+    <p>Software Engineer | Cloud & AWS</p>
+  </div>
 </body>
 </html>
